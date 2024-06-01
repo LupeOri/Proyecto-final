@@ -1,7 +1,8 @@
 const mongoose = require("mongoose");
+const dotenv = require("dotenv");
+dotenv.config();
 
-const DB_URL =
-  "mongodb+srv://lupeoriol:mathilupe2024@cluster0.7hyw3uj.mongodb.net/local-leisure";
+const DB_URL = process.env.DB_URL;
 
 const connect = async () => {
   try {
