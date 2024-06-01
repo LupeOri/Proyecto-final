@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 
 const DB_URL =
-  "mongodb+srv://lupeoriol:mathilupe2024@cluster0.7hyw3uj.mongodb.net/";
+  "mongodb+srv://lupeoriol:mathilupe2024@cluster0.7hyw3uj.mongodb.net/local-leisure";
 
 const connect = async () => {
   try {
